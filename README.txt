@@ -5,7 +5,7 @@ Requirements:
 This script runs from the command line and it reads a CSV file.
 There is also a unit test that lets you know that the test ran successfully. The unit test is as simple as simple can be. It was just added to the script to satisfy the assignment's rubric. 
 
-Please check out the repositoty running tnis command: git clone https://github.com/ysaismartinez/pre-moduleAssignment.git 
+Please clone the repositoty running tnis command: git clone https://github.com/ysaismartinez/pre-moduleAssignment.git 
 
 Then browse to the folder my_cli_hw
 And from terminal run: my_cli_hw 
