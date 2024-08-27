@@ -9,16 +9,14 @@ Please check out https://github.com/ysaismartinez/pre-moduleAssignment.git
 
 Then browse to the folder my_cli_hw
 And from terminal run: my_cli_hw 
-This should output the screenshot I added to the Word document (ScreenshotOfSuccessfulRun.docx) in the folder. 
-
-If you run into an error like "ModuleNotFound" try this:
+When you try to run that command (my_cli_hw) you will get a "command not found" error message. This is because we have to complete some steps. 
 
 From terminal run the following commands in order:
 1. python3 -m venv myenv
 2. source myenv/bin/activate (On a Windows system run this instead: myenv\Scripts\activate)
 3. pip install .
 
-Then you should see an output like this (lines 19-36 of this README file):
+Then you should see an output like this (lines 21-38 of this README file):
 
 (myenv) ysais.a.martinez@AMAQ91CJPGXMM my_cli_hw % pip install .
 Processing /Users/ysais.a.martinez/Documents/my_cli_hw
@@ -40,6 +38,8 @@ Installing collected packages: my_cli_hw
 Successfully installed my_cli_hw-0.1
 
 4. Run my_cli_hw 
+
+And the command should run and output the CSV file contents and the output of the method describe()
 
 If you want to run a unittest from terminal run this:
 python -m unittest discover tests 
